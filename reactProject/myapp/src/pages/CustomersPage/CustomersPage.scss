@@ -1,0 +1,28 @@
+.CustomerPage-wrapper {
+    text-align: center;
+
+    .newPurchase{
+
+        div{
+            margin: 1%;
+            font-size: large;
+            font-family: monospace;
+        }
+
+        button{
+            margin: 1%;
+            font-size: large;
+            font-family: auto;
+            padding: 0.5%;
+
+            &:hover{
+                background-color: palevioletred;
+                color:antiquewhite ;
+            }
+
+            &:active{
+            font-size:medium;
+            }
+        }
+    }
+}

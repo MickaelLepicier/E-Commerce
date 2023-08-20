@@ -1,0 +1,14 @@
+.wrap-search {
+    button{
+        margin: 1%;
+        padding: 1%;
+        font-size: larger;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: bisque;
+        color: blue;
+    &:hover{
+        background-color: #f7c4ff;
+    }
+    }
+}

@@ -1,0 +1,39 @@
+.Edit-wrapper{
+    margin-top: 2%;
+    text-align: center;
+   
+    .button-field{
+        padding: 10px;
+    
+        button{
+            font-size: larger;
+            margin: 0% 10%;
+            padding: 0.5% 3%;
+          
+            &:hover{
+                background-color:rgba(0, 255, 58, 0.3294117647);
+            }
+            &:active{
+                background-color:rgb(255 0 250 / 22%);
+                font-size:large;
+            }
+            
+        }
+    
+    }
+
+    button{
+        font-size: larger;
+        margin: 0% 10%;
+        padding: 0.5% 3%;
+        color: #800080c2;
+        
+        &:hover{
+            background-color: #ffd70069;
+        }
+        &:active{
+            color: rgb(128 0 128 / 48%);
+            font-size:large;
+        }   
+    }
+}

@@ -1,0 +1,55 @@
+.Json-wrapper {
+    // TODO ASK GAI when I click the
+    // btn it will make just that card bigger
+
+    .field {
+        margin-bottom: 10px;
+
+        img{
+            width: 100%;
+            border-radius: 25px;
+        }
+    
+        div {
+            font-family: auto;
+            font-size:larger;
+        }
+
+        .btn-navigate {
+            border: none;
+            color: blue;
+            margin: 0 5px;
+            font-size: larger;
+            cursor: pointer;
+            background-color:rgb(0 0 0 / 0%);
+            margin-top: 30px;
+            &:active{
+                color: #0000ffa8
+            }
+        }
+      
+    }
+
+    .field-edit{
+        padding: 5px;
+        font-size: 150%;
+        font-family: serif;
+
+        .edit-img{
+            margin:1%;
+             width: 35%;
+             border-radius: 25px;
+             
+            }
+
+            input{
+                font-size: 100%;
+                font-family: serif;
+                background-color: #00ff3a54;
+                border-radius: 25px;
+                padding: 5px;
+            }
+
+    }
+}
+

@@ -1,0 +1,19 @@
+.Purchase-wrapper {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #334;
+    border-radius: 25px;
+    max-height: 180px;
+    margin-top: 3%;
+    &:hover{
+    background-color: rgb(128 0 128 / 47%);
+    }
+
+    button{
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(128, 0, 128, 0.7607843137);
+        padding: 1%;
+        &:hover{
+            background-color: palevioletred;
+            }
+    }
+}

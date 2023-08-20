@@ -1,0 +1,14 @@
+.Select-wrapper {
+    padding: 1%;
+    font-size: large;
+    border-radius: 10px;
+    font-family: auto;
+    cursor: pointer;
+    background-color: bisque;
+    margin: 1%;
+
+&:hover{
+    background-color: #ffd70069;
+}
+
+}

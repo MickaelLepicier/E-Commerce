@@ -1,0 +1,35 @@
+
+
+.TopBar-wrapper {
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 5px;
+    background-color: gold;
+
+    justify-content: space-between;
+   
+    .flex {
+        width: 15%;
+        align-self: center;
+    }
+
+    .menuBtn{
+    width: 10%;
+    color: blue;
+    font-family: cursive;
+    font-size: x-large;
+    background-color: lightcyan;
+    border-color: cyan cyan darkcyan darkcyan;
+    border-radius: 25px;
+
+    &:hover{
+    background-color: rgb(195, 249, 249);
+    }
+
+    &:active {
+    font-size: large;
+    border-color: darkcyan darkcyan cyan cyan;
+}
+}
+   
+}

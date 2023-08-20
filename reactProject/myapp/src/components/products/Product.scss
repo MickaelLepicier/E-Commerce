@@ -1,0 +1,29 @@
+.Product-wrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+
+
+    // TODO ASK GAI when click the btn just one getting bigger 
+
+    border-radius: 25px;
+    text-align: center;
+
+    .btn{
+        background-color: rgba(0, 0, 0, 0);
+        color: #800080c2;
+        padding: 1%;
+        margin-top: 5%;
+
+        &:hover{
+            background-color: #ffd70069;
+        }
+        
+        &:active{
+            color: rgb(128 0 128 / 48%)
+        }
+    }
+
+}

@@ -1,0 +1,64 @@
+$border: solid  grey 2px;
+
+@mixin field-column{
+    width: 30%;
+        border-right: $border;
+        margin: auto 0 auto 0;
+}
+
+.table-wrapper{
+    border: $border;
+    border-radius: 25px;
+    width: 75%;
+    margin: 8%;
+    padding: 2%;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+    .table-labels{
+        display: flex;
+        justify-content:space-around;
+        font-size: x-large;
+        font-family: auto;
+
+        label{
+            padding: 1%;
+        }
+    }
+    
+    .field-wrapper{
+        display: flex;
+        margin-top: 1%;
+        width: 100%;
+        text-align: center;
+        border: $border;
+        border-radius: 5px;
+        font-size: larger;
+        font-family: math;
+        padding: 0.5%;
+    }
+   
+    .customer-field{
+        @include field-column;
+    }
+    
+    .products-field{
+        width: 40%;
+        border: none;
+        background: none;
+        color: black;
+        font-size: medium;
+        margin: auto 0 auto 0;
+        cursor: pointer;
+
+    }
+
+    .dates-field{
+        @include field-column;
+        border-right: none;
+        border-left: $border;
+    }
+
+}
+
